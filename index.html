@@ -1,264 +1,291 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Breno Savary - Desenvolvedor de Software e Especialista em BI</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="icon" href="images/avatar.jpg" type="image/x-icon">
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breno Savary - Soluções Comerciais</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <div class="logo-box">BS</div>
+                    <span class="logo-text">Breno Savary</span>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="nav-menu desktop-menu">
+                    <a href="#produtos" class="nav-link">Produtos</a>
+                    <a href="#servicos" class="nav-link">Serviços</a>
+                    <a href="#contato" class="nav-link">Contato</a>
+                    <button class="btn btn-primary">Solicitar Demo</button>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="#produtos" class="mobile-nav-link">Produtos</a>
+                <a href="#servicos" class="mobile-nav-link">Serviços</a>
+                <a href="#contato" class="mobile-nav-link">Contato</a>
+                <button class="btn btn-primary btn-full">Solicitar Demo</button>
+            </div>
+        </div>
+    </nav>
 
-		<!-- Header -->
-			<div id="header">
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Soluções Comerciais Inteligentes</h1>
+                    <p>Transforme seu negócio com sistemas modernos, IA integrada e automação inteligente.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary">Explorar Soluções</button>
+                        <button class="btn btn-outline">Saiba Mais</button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-value">50+</div>
+                            <div class="stat-label">Clientes Ativos</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value" style="color: #10B981;">98%</div>
+                            <div class="stat-label">Satisfação</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-value">24/7</div>
+                            <div class="stat-label">Suporte</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663435278426/eg9wtBEGBXhQSdktVnjV7X/hero-barbershop-system-NaAE6z2ypoPp9yXE8EcSo5.webp" alt="BarberSys Pro Dashboard">
+                </div>
+            </div>
+        </div>
+    </section>
 
-				<div class="top">
+    <!-- Produtos Section -->
+    <section class="section" id="produtos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Produtos</h2>
+                <p>Soluções inovadoras desenvolvidas para transformar a gestão de negócios</p>
+            </div>
 
-					<!-- Logo -->
-						<div id="logo">
-							<span class="avatar"><img src="images/avatar.jpg" alt="Breno Savary" /></span>
-							<h1 id="title">Breno Savary</h1>
-							<p>Desenvolvedor de Software e Especialista em BI</p>
-						</div>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="barbershop">BarberSys Pro</button>
+            </div>
 
-					<!-- Nav -->
-						<nav id="nav">
-							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#services" id="services-link"><span class="icon solid fa-th">Serviços</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">Sobre Mim</span></a></li>
-								<li><a href="#courses" id="courses-link"><span class="icon solid fa-graduation-cap">Cursos</span></a></li>
-								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contato</span></a></li>
-							</ul>
-						</nav>
+            <div class="tab-content active" id="barbershop-tab">
+                <div class="product-grid">
+                    <div class="product-info">
+                        <h3>BarberSys Pro</h3>
+                        <p class="product-tagline">Sistema Completo de Gerenciamento para Barbearias</p>
+                        <p class="product-description">Solução integrada com chatbot IA, agendamento automático, dashboard em tempo real e sistema de fidelidade.</p>
+                        <button class="btn btn-primary">Ver Demo do BarberSys Pro</button>
+                    </div>
+                    <div class="product-image">
+                        <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663435278426/eg9wtBEGBXhQSdktVnjV7X/hero-barbershop-system-NaAE6z2ypoPp9yXE8EcSo5.webp" alt="BarberSys Pro">
+                    </div>
+                </div>
 
-				</div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-value">3.450+</div>
+                        <div class="stat-label">Agendamentos/Mês</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">1.250+</div>
+                        <div class="stat-label">Clientes Ativos</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">87%</div>
+                        <div class="stat-label">Taxa de Retenção</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value">92%</div>
+                        <div class="stat-label">Satisfação</div>
+                    </div>
+                </div>
 
-				<div class="bottom">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">💬</div>
+                        <h4>Chatbot IA</h4>
+                        <p>Atendimento automático 24/7 com Gemini</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📅</div>
+                        <h4>Agendamento</h4>
+                        <p>Sistema inteligente de reservas</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h4>Dashboard</h4>
+                        <p>Análise em tempo real de negócio</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⭐</div>
+                        <h4>Fidelidade</h4>
+                        <p>Programa de pontos integrado</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					<!-- Social Icons -->
+    <!-- Serviços Section -->
+    <section class="section bg-light" id="servicos">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <p>Expertise em desenvolvimento, dados e inteligência artificial</p>
+            </div>
 
-				</div>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="powerbi">Power BI</button>
+                <button class="tab-btn" data-tab="ia">Integração com IA</button>
+                <button class="tab-btn" data-tab="desenvolvimento">Desenvolvimento</button>
+                <button class="tab-btn" data-tab="dba">DBA e Banco de Dados</button>
+            </div>
 
-			</div>
+            <div class="tab-content active" id="powerbi-tab">
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Power BI</h3>
+                    <p class="service-tagline">Painéis Acessíveis e Ilimitados</p>
+                    <p class="service-description">Desenvolvimento de painéis acessíveis pelo navegador, seja no computador ou celular, com número ilimitado de pessoas com os mesmos recursos da licenciamento Premium por Capacidade (SKU EM) do Power BI usando a licença free.</p>
+                    <ul class="features-list">
+                        <li>✓ Painéis responsivos para desktop e mobile</li>
+                        <li>✓ Acesso ilimitado de usuários</li>
+                        <li>✓ Recursos Premium sem custos adicionais</li>
+                        <li>✓ Integração com múltiplas fontes de dados</li>
+                        <li>✓ Atualização em tempo real</li>
+                    </ul>
+                </div>
+            </div>
 
-		<!-- Main -->
-			<div id="main">
+            <div class="tab-content" id="ia-tab">
+                <div class="service-card">
+                    <div class="service-icon">🧠</div>
+                    <h3>Integração com IA</h3>
+                    <p class="service-tagline">ChatGPT/Gemini para Automação</p>
+                    <p class="service-description">Integração com ChatGPT/Gemini para validação de milhares de documentos e para sugestão de produtos em tempo real, oferendo produtos em promoção, produtos que combinam com o que foi pedido.</p>
+                    <ul class="features-list">
+                        <li>✓ Validação automática de documentos</li>
+                        <li>✓ Sugestão inteligente de produtos</li>
+                        <li>✓ Identificação de produtos em promoção</li>
+                        <li>✓ Análise de compatibilidade de produtos</li>
+                        <li>✓ Processamento em tempo real</li>
+                    </ul>
+                </div>
+            </div>
 
-				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
+            <div class="tab-content" id="desenvolvimento-tab">
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Desenvolvimento</h3>
+                    <p class="service-tagline">Soluções Personalizadas</p>
+                    <p class="service-description">Desenvolvimento de soluções personalizadas usando Maker Softwell, Node.js e Java para atender às necessidades do seu negócio.</p>
+                    <ul class="features-list">
+                        <li>✓ Desenvolvimento full-stack</li>
+                        <li>✓ Maker Softwell para low-code</li>
+                        <li>✓ Backend com Node.js e Java</li>
+                        <li>✓ Arquitetura escalável</li>
+                        <li>✓ Integração com sistemas legados</li>
+                    </ul>
+                </div>
+            </div>
 
-							<header>
-								<span class="avatar"><img src="images/avatar.jpg" alt="Breno Savary" /></span>
-								<h2 class="alt">Olá! Sou <strong>Breno Savary</strong>.</h2>
-								<p>Desenvolvedor de software e especialista em Business Intelligence<br />
-								oferecendo soluções personalizadas para otimizar seus negócios.<br />
-								Casado e Pai de 2 filhos.</p>
-							</header>
+            <div class="tab-content" id="dba-tab">
+                <div class="service-card">
+                    <div class="service-icon">🗄️</div>
+                    <h3>DBA e Banco de Dados</h3>
+                    <p class="service-tagline">Gestão Completa de Dados</p>
+                    <p class="service-description">Criação e manutenção de estruturas de dados no SQL Server, incluindo tabelas, consultas e views. Otimização e administração do banco, garantindo desempenho, segurança e integridade das informações.</p>
+                    <ul class="features-list">
+                        <li>✓ Design de estruturas de dados</li>
+                        <li>✓ Criação de tabelas e views</li>
+                        <li>✓ Otimização de queries</li>
+                        <li>✓ Backup e recuperação</li>
+                        <li>✓ Segurança e integridade de dados</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-							<footer>
-								<a href="#services" class="button scrolly">Conheça meus serviços</a>
-							</footer>
+    <!-- Contato Section -->
+    <section class="section" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <h2>Entre em Contato</h2>
+                <p>Vamos conversar sobre como podemos ajudar seu negócio a crescer</p>
+            </div>
 
-						</div>
-					</section>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email</h3>
+                    <a href="mailto:brenosavary@gmail.com" class="contact-link">brenosavary@gmail.com</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📱</div>
+                    <h3>Telefone</h3>
+                    <a href="tel:+5575991248689" class="contact-link">(75) 99124-8689</a>
+                </div>
+            </div>
 
-				<!-- Services -->
-					<section id="services" class="two">
-						<div class="container">
+            <div class="contact-action">
+                <button class="btn btn-primary btn-large">Agendar Reunião</button>
+            </div>
+        </div>
+    </section>
 
-							<header>
-								<h2>Serviços</h2>
-							</header>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-box">BS</div>
+                        <span>Breno Savary</span>
+                    </div>
+                    <p>Soluções comerciais inteligentes para seu negócio</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><a href="mailto:brenosavary@gmail.com">brenosavary@gmail.com</a></li>
+                        <li><a href="tel:+5575991248689">(75) 99124-8689</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Breno Savary. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
 
-							<p>Ofereço uma gama de serviços para ajudar sua empresa a crescer e inovar. Minhas soluções são personalizadas para atender às suas necessidades específicas, com foco em qualidade e resultados.</p>
-
-							<div class="row">
-								<div class="col-6 col-12-mobile">
-									<article class="item">
-										<i class="icon solid fa-chart-bar"></i>
-										<header>
-											<h3>Power BI</h3>
-										</header>
-										<p>Desenvolvimento de painéis acessíveis pelo navegador, seja no computador ou celular, com número ilimitado de pessoas com os mesmos recursos da licenciamento Premium por Capacidade (SKU EM) do Power BI usando a licença free.</p>
-									</article>
-									<article class="item">
-										<i class="icon solid fa-robot"></i>
-										<header>
-											<h3>Integração com IA</h3>
-										</header>
-										<p>Integração com ChatGPT/Gemini para validação de milhares de documentos e para sugestão de produtos em tempo real, oferendo produtos em promoção, produtos que combinam com o que foi pedido.</p>
-									</article>
-								</div>
-								<div class="col-6 col-12-mobile">
-									<article class="item">
-										<i class="icon solid fa-code"></i>
-										<header>
-											<h3>Desenvolvimento</h3>
-										</header>
-										<p>Desenvolvimento de soluções personalizadas usando Maker Softwell, Node.js e Java para atender às necessidades do seu negócio.</p>
-									</article>
-									<article class="item">
-										<i class="icon solid fa-database"></i>
-										<header>
-											<h3>DBA e Desenvolvedor de Banco de Dados</h3>
-										</header>
-										<p>Criação e manutenção de estruturas de dados no SQL Server, incluindo tabelas, consultas e views. Otimização e administração do banco, garantindo desempenho, segurança e integridade das informações.</p>
-									</article>
-								</div>
-							</div>
-
-						</div>
-					</section>
-
-				<!-- About Me -->
-					<section id="about" class="three">
-						<div class="container">
-
-							<header>
-								<h2>Sobre Mim</h2>
-							</header>
-
-							<h3>Experiência Profissional</h3>
-							<p>Com mais de 10 anos de experiência em desenvolvimento de software e análise de dados, tenho uma trajetória sólida na criação de soluções eficientes e inovadoras para diversas áreas de negócio. Desejando saber mais sobre qualquer experiência, me disponho a fazer uma reunião, para explicar detalhadamente as etapas do projeto assim como código e o software em funcionamento.</p>
-							<ul>
-								<li><strong>Analista de Suporte a ERP (2 anos):</strong> Atuei no suporte a usuários de um ERP completo, o que me proporcionou uma base sólida em sistemas de gestão empresarial.</li>
-								<li><strong>Desenvolvedor de ERP e BI (4 anos):</strong> Desenvolvi relatórios e rotinas para ERP, criei sistemas para empresas de serviços e comércio, e liderei a entrega de soluções de Business Intelligence com foco em tratamento de dados em SQL SERVER.</li>
-								<li><strong>Desenvolvedor Sênior e Arquiteto de Soluções (4 anos):</strong> Utilizei a ferramenta Maker, Java e Javascript para desenvolver e manter um novo ERP. Administrei bancos de dados SQL SERVER, criei aplicativos em Flutter/Dart e desenvolvi dashboards em Power BI.</li>
-							</ul>
-
-							<h3>Conhecimentos Técnicos</h3>
-							<ul>
-								<li><strong>Banco de Dados:</strong> SQL SERVER (criação de tabelas, views, functions, procedures, otimização de performance).</li>
-								<li><strong>Desenvolvimento Backend:</strong> Java, Node.js.</li>
-								<li><strong>Desenvolvimento Frontend:</strong> Javascript, Flutter/Dart.</li>
-								<li><strong>Ferramentas e Plataformas:</strong> Maker Softwell, Power BI.</li>
-								<li><strong>Integrações:</strong> APIs REST, Hikvision, Gemini/ChatGPT, Google Calendar, Whatsapp, sistemas de pagamento PIX.</li>
-							</ul>
-
-							<p>Sou casado há 10 anos e, junto com minha esposa Arlene, tenho dois filhos, João Gabriel de 10 e Joaquim de 4 anos.</p>
-
-						</div>
-					</section>
-
-				<!-- Formacao Academica -->
-					<section id="formacao" class="four">
-						<div class="container">
-
-							<header>
-								<h2>Formação Acadêmica</h2>
-							</header>
-
-							<h4>Faculdade Anísio Teixeira (FAT)</h4>
-							<ul>
-								<li>Tecnólogo de Informatica com enfase em Redes de Computadores.</li>
-							</ul>
-
-							<h4>Universidade Norte do Paraná</h4>
-							<ul>
-								<li>Pós graduação Business Intelligence, Big Data e Analytics - Ciência de Dados</li>
-							</ul>
-
-							<h4>Instituto Nacional Saber</h4>
-							<ul>
-								<li>Pós graduação Engenharia de Software</li>
-							</ul>
-
-						</div>
-					</section>
-
-				<!-- Courses -->
-					<section id="courses" class="three">
-						<div class="container">
-
-							<header>
-								<h2>Cursos e Certificados</h2>
-							</header>
-
-							<p>Aqui estão alguns dos cursos e certificados que obtive ao longo da minha carreira, demonstrando meu contínuo aprendizado e especialização na área de tecnologia.</p>
-
-							<h4>Universidade do Estado da Bahia (UNEB)</h4>
-							<ul>
-								<li>Participação no minicurso de "Plataforma de desenvolvimento iOS e Editor Xcode" e no minicurso de "Desenvolvimento Android", ambos com 4 horas de carga horária cada.</li>
-								<li>Participação nas palestras do "V Fórum de Tecnologia - Dispositivos Móveis: Desenvolvimento e Mercado", com carga horária de 20 horas.</li>
-							</ul>
-
-							<h4>Faculdade Anísio Teixeira (FAT)</h4>
-							<ul>
-								<li>Monitoria da disciplina "Banco de Dados" no semestre 2013.2, com carga horária de 48 horas.</li>
-								<li>Participação na palestra "Desenvolvendo Aplicações em JAVA", com carga horária de 3 horas.</li>
-								<li>Participação na palestra "COMO SE TORNAR UM GERENTE DE PROJETOS", com carga horária de 2 horas.</li>
-							</ul>
-
-							<h4>Universidade Salvador (UNIFACS)</h4>
-							<ul>
-								<li>Participação no mini-curso "PHP for Android" no IV SIMCIT, com carga horária de 8 horas.</li>
-								<li>Participação no V Simpósio Científico Tecnológico (SIMCIT), com carga horária de 10 horas.</li>
-							</ul>
-
-							<h4>C3 Consultoria, Contabilidade e Treinamentos</h4>
-							<ul>
-								<li>Curso "PHP & MySQL", com carga horária de 50 horas.</li>
-							</ul>
-
-							<h4>Softwell Solutions</h4>
-							<ul>
-								<li>Treinamento online da ferramenta de desenvolvimento MAKER, com carga horária de 40 horas.</li>
-							</ul>
-
-							<h4>UNOPAR</h4>
-							<ul>
-								<li>Participação no "Workshop Tecnologia em Foco", com carga horária de 5 horas.</li>
-							</ul>
-
-							<h4>Udemy</h4>
-							<ul>
-								<li>Curso online "O curso completo de Banco de Dados e SQL, sem mistérios!", com 32,5 horas.</li>
-								<li>Curso online "Gestão de Projetos de Data Science e Big Data", com 2 horas.</li>
-								<li>Curso online "Desenvolvedor Qlik Sense", com 4,5 horas.</li>
-							</ul>
-
-						</div>
-					</section>
-
-				<!-- Contact -->
-					<section id="contact" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Contato</h2>
-							</header>
-
-							<p>Entre em contato comigo através do email ou WhatsApp:</p>
-							<h3><a href="mailto:brenosavary@gmail.com">brenosavary@gmail.com</a></h3>
-							<h3><a href="https://wa.me/5575991248689">(75) 99124-8689</a></h3>
-
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Footer -->
-			<div id="footer">
-
-				<!-- Copyright -->
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <script src="script.js"></script>
+</body>
 </html>
